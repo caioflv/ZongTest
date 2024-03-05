@@ -1,11 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class GameController : MonoBehaviour
+namespace ZongGameTest
 {
-    public void QuitGame()
+    public class GameController : MonoBehaviour
     {
-        Application.Quit();
+        public void QuitGame()
+        {
+            Application.Quit();
+        }
     }
 }
