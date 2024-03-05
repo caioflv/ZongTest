@@ -21,8 +21,8 @@ namespace ZongGameTest
                         Debug.LogError("CanvasGroup is NULL");
                         return;
                     }
-                    _canvasGroup.DOKill(true);
-                    _canvasGroup.DOFade(0, 0);
+                    _canvasGroup.DOKill(false);
+                    _canvasGroup.alpha = 0;
                     _canvasGroup.DOFade(1, 2);
 
                     break;

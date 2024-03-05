@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace ZongGameTest
 {
-    public class Statistics : MonoBehaviour
+    public class Stats : MonoBehaviour
     {
         [SerializeField] private TextMeshProUGUI _statisticsName;
         [SerializeField] private TextMeshProUGUI _statisticsValue;
